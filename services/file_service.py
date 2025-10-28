@@ -2,7 +2,7 @@ import os
 import uuid
 from werkzeug.utils import secure_filename
 from models.uploaded_file import UploadedFile
-from app import db
+from database import db
 import logging
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'pdf', 'txt'}

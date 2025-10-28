@@ -3,13 +3,13 @@ import logging
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from config import Config
+from database import db
 
 # Initialize Flask app
 app = Flask(__name__)
 app.config.from_object(Config)
 
 # Initialize database
-db = SQLAlchemy(app)
 # Configure logging
 
 os.makedirs(app.config['LOG_FOLDER'], exist_ok=True)
@@ -21,7 +21,12 @@ format='%(asctime)s [%(levelname)s] %(message)s'
 
 # Register blueprints
 from controllers.file_controller import file_bp
+from controllers.auth_controller import auth_bp
 app.register_blueprint(file_bp)
+app.register_blueprint(auth_bp)
+
+
+db.init_app(app)
 
 # Create tables if not exist
 with app.app_context():

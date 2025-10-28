@@ -60,3 +60,198 @@
 2025-10-19 13:48:33,260 [INFO] 127.0.0.1 - - [19/Oct/2025 13:48:33] "[31m[1mDELETE /upload HTTP/1.1[0m" 405 -
 2025-10-19 13:48:50,942 [INFO] File saved: uploads\30472a9d9dee45c482ed4b8f4ffd2997\a19db5f610ee425aba07da3946a7a7bf_Flask_Logging_Assignment_Documentation.pdf
 2025-10-19 13:48:50,944 [INFO] 127.0.0.1 - - [19/Oct/2025 13:48:50] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 14:08:46,966 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-19 14:08:46,966 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-19 14:09:24,862 [INFO] File saved: uploads\55b722747a6a4145af345b3c97f6f3c2\160f0a07f1d84fac9aebd3b906bd026f_Flask_File_Upload_Mvc_With_My_Sql_And_Logging_Step-by-step_Documentation.pdf
+2025-10-19 14:09:24,869 [INFO] 127.0.0.1 - - [19/Oct/2025 14:09:24] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 14:09:44,592 [INFO] 127.0.0.1 - - [19/Oct/2025 14:09:44] "GET /file/4 HTTP/1.1" 200 -
+2025-10-19 14:11:30,113 [INFO] File saved: uploads\e09a5ad792ad4bf8ad68d11ffd44ef3a_Flask_File_Upload_Mvc_With_My_Sql_And_Logging_Step-by-step_Documentation.pdf
+2025-10-19 14:11:30,122 [INFO] File updated: ID=4
+2025-10-19 14:11:30,125 [INFO] 127.0.0.1 - - [19/Oct/2025 14:11:30] "PUT /file/4 HTTP/1.1" 200 -
+2025-10-19 14:11:44,907 [INFO] File deleted from storage: uploads\e09a5ad792ad4bf8ad68d11ffd44ef3a_Flask_File_Upload_Mvc_With_My_Sql_And_Logging_Step-by-step_Documentation.pdf
+2025-10-19 14:11:44,915 [INFO] Record deleted: ID=4
+2025-10-19 14:11:44,915 [INFO] 127.0.0.1 - - [19/Oct/2025 14:11:44] "DELETE /file/4 HTTP/1.1" 200 -
+2025-10-19 14:12:21,636 [INFO] File saved: uploads\f3e5be010ff243f08016c992a1434945\0d3fc979c0e748e8b07b78f4d2bc9663_Flask_File_Upload_Mvc_With_My_Sql_And_Logging_Step-by-step_Documentation.pdf
+2025-10-19 14:12:21,638 [INFO] 127.0.0.1 - - [19/Oct/2025 14:12:21] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 14:12:43,913 [INFO] File saved: uploads\ea426657e7ad462193cff9d2434c606b_Flask_File_Upload_Mvc_With_My_Sql_And_Logging_Step-by-step_Documentation.pdf
+2025-10-19 14:12:43,922 [INFO] File updated: ID=6
+2025-10-19 14:12:43,925 [INFO] 127.0.0.1 - - [19/Oct/2025 14:12:43] "PUT /file/6 HTTP/1.1" 200 -
+2025-10-28 15:40:55,217 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 15:40:55,218 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 15:40:55,224 [INFO]  * Restarting with stat
+2025-10-28 15:40:57,463 [WARNING]  * Debugger is active!
+2025-10-28 15:40:57,473 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:47:17,226 [INFO] Login successful for user: admin
+2025-10-28 15:47:17,227 [INFO] 127.0.0.1 - - [28/Oct/2025 15:47:17] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:47:54,672 [WARNING] Failed login attempt for user: admin
+2025-10-28 15:47:54,672 [INFO] 127.0.0.1 - - [28/Oct/2025 15:47:54] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:47:56,205 [WARNING] Failed login attempt for user: admin
+2025-10-28 15:47:56,207 [INFO] 127.0.0.1 - - [28/Oct/2025 15:47:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:48:14,178 [WARNING] Failed login attempt for user: admin
+2025-10-28 15:48:14,179 [INFO] 127.0.0.1 - - [28/Oct/2025 15:48:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:48:31,801 [WARNING] Failed login attempt for user: admin
+2025-10-28 15:48:31,801 [INFO] 127.0.0.1 - - [28/Oct/2025 15:48:31] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:48:37,602 [WARNING] Failed login attempt for user: admin1
+2025-10-28 15:48:37,603 [INFO] 127.0.0.1 - - [28/Oct/2025 15:48:37] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:54:31,381 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\auth_controller.py', reloading
+2025-10-28 15:54:31,599 [INFO]  * Restarting with stat
+2025-10-28 15:54:33,420 [WARNING]  * Debugger is active!
+2025-10-28 15:54:33,430 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:54:49,139 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 15:54:49,139 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 15:54:49,150 [INFO]  * Restarting with stat
+2025-10-28 15:54:51,584 [WARNING]  * Debugger is active!
+2025-10-28 15:54:51,588 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:55:56,241 [INFO] 127.0.0.1 - - [28/Oct/2025 15:55:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:34,095 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:34] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:35,257 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:35] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:36,830 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:36] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:37,025 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:37] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:37,677 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:37] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:37,890 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:37] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:56:40,564 [INFO] 127.0.0.1 - - [28/Oct/2025 15:56:40] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:57:32,191 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\auth_controller.py', reloading
+2025-10-28 15:57:32,368 [INFO]  * Restarting with stat
+2025-10-28 15:57:34,546 [WARNING]  * Debugger is active!
+2025-10-28 15:57:34,551 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:57:37,732 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\auth_controller.py', reloading
+2025-10-28 15:57:38,109 [INFO]  * Restarting with stat
+2025-10-28 15:57:43,659 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 15:57:43,659 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 15:57:43,663 [INFO]  * Restarting with stat
+2025-10-28 15:57:45,151 [WARNING]  * Debugger is active!
+2025-10-28 15:57:45,160 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:57:56,978 [INFO] 127.0.0.1 - - [28/Oct/2025 15:57:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:57:58,224 [INFO] 127.0.0.1 - - [28/Oct/2025 15:57:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:57:58,992 [INFO] 127.0.0.1 - - [28/Oct/2025 15:57:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:57:59,376 [INFO] 127.0.0.1 - - [28/Oct/2025 15:57:59] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:02,620 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:09,375 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:09] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:10,541 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:10] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:11,083 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:11] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:11,376 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:11] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:17,359 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:17] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:18,064 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:18] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:58:18,736 [INFO] 127.0.0.1 - - [28/Oct/2025 15:58:18] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:59:28,893 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\auth_controller.py', reloading
+2025-10-28 15:59:29,090 [INFO]  * Restarting with stat
+2025-10-28 15:59:30,339 [WARNING]  * Debugger is active!
+2025-10-28 15:59:30,343 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:59:34,004 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 15:59:34,005 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 15:59:34,008 [INFO]  * Restarting with stat
+2025-10-28 15:59:35,259 [WARNING]  * Debugger is active!
+2025-10-28 15:59:35,265 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 15:59:41,190 [INFO] 127.0.0.1 - - [28/Oct/2025 15:59:41] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-28 15:59:42,571 [INFO] 127.0.0.1 - - [28/Oct/2025 15:59:42] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-28 15:59:48,430 [WARNING] Failed login attempt for user: asd
+2025-10-28 15:59:48,431 [INFO] 127.0.0.1 - - [28/Oct/2025 15:59:48] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 15:59:49,263 [WARNING] Failed login attempt for user: asd
+2025-10-28 15:59:49,264 [INFO] 127.0.0.1 - - [28/Oct/2025 15:59:49] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:09,615 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:09,615 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:09] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:10,310 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:10,310 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:10] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:10,716 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:10,716 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:10] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:11,493 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:11,493 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:11] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:13,541 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:13,541 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:13] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:13,824 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:13,824 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:13] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:14,059 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:14,059 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:14,295 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:14,295 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:14,685 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:14,685 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:15,864 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:15,865 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:15] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:00:16,645 [WARNING] Failed login attempt for user: username
+2025-10-28 16:00:16,645 [INFO] 127.0.0.1 - - [28/Oct/2025 16:00:16] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:01:00,977 [INFO] Login successful for user: admin
+2025-10-28 16:01:00,978 [INFO] 127.0.0.1 - - [28/Oct/2025 16:01:00] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:01:01,852 [INFO] Login successful for user: admin
+2025-10-28 16:01:01,853 [INFO] 127.0.0.1 - - [28/Oct/2025 16:01:01] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:01:02,532 [INFO] Login successful for user: admin
+2025-10-28 16:01:02,533 [INFO] 127.0.0.1 - - [28/Oct/2025 16:01:02] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:01:48,100 [INFO] Login successful for user: admin
+2025-10-28 16:01:48,101 [INFO] 127.0.0.1 - - [28/Oct/2025 16:01:48] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:01:49,339 [INFO] Login successful for user: admin
+2025-10-28 16:01:49,340 [INFO] 127.0.0.1 - - [28/Oct/2025 16:01:49] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:02:05,624 [WARNING] Failed login attempt for user: admin
+2025-10-28 16:02:05,625 [INFO] 127.0.0.1 - - [28/Oct/2025 16:02:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:02:15,398 [WARNING] Failed login attempt for user: admin1
+2025-10-28 16:02:15,398 [INFO] 127.0.0.1 - - [28/Oct/2025 16:02:15] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:03:34,622 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\auth_controller.py', reloading
+2025-10-28 16:03:34,832 [INFO]  * Restarting with stat
+2025-10-28 16:03:37,098 [WARNING]  * Debugger is active!
+2025-10-28 16:03:37,102 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 16:03:51,134 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 16:03:51,134 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 16:03:51,137 [INFO]  * Restarting with stat
+2025-10-28 16:03:52,349 [WARNING]  * Debugger is active!
+2025-10-28 16:03:52,353 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 16:04:00,427 [WARNING] Failed login attempt. User not found: admin1
+2025-10-28 16:04:00,428 [INFO] 127.0.0.1 - - [28/Oct/2025 16:04:00] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:04:10,627 [WARNING] Wrong password for user: admin
+2025-10-28 16:04:10,627 [INFO] 127.0.0.1 - - [28/Oct/2025 16:04:10] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-28 16:07:07,995 [ERROR] Upload error: name 'app' is not defined
+2025-10-28 16:07:07,996 [INFO] 127.0.0.1 - - [28/Oct/2025 16:07:07] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-28 16:08:02,985 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\file_controller.py', reloading
+2025-10-28 16:08:03,291 [INFO]  * Restarting with stat
+2025-10-28 16:11:38,443 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 16:11:38,444 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 16:11:38,446 [INFO]  * Restarting with stat
+2025-10-28 16:11:40,145 [WARNING]  * Debugger is active!
+2025-10-28 16:11:40,153 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 16:11:47,618 [INFO] File saved: uploads\499e288008254e0087a383457eac0897\fc498595839f4f0b9aa37d8f97e263f7_Flask_FileUpload_Login_Extension.pdf
+2025-10-28 16:11:47,628 [INFO] 127.0.0.1 - - [28/Oct/2025 16:11:47] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-28 16:12:22,991 [INFO] 127.0.0.1 - - [28/Oct/2025 16:12:22] "[33mPUT /upload/8 HTTP/1.1[0m" 404 -
+2025-10-28 16:13:10,461 [INFO] 127.0.0.1 - - [28/Oct/2025 16:13:10] "[33mPUT /upload/8 HTTP/1.1[0m" 404 -
+2025-10-28 16:14:11,686 [INFO] 127.0.0.1 - - [28/Oct/2025 16:14:11] "[31m[1mPUT /upload HTTP/1.1[0m" 405 -
+2025-10-28 16:14:16,143 [INFO] 127.0.0.1 - - [28/Oct/2025 16:14:16] "[33mPUT /upload/8 HTTP/1.1[0m" 404 -
+2025-10-28 16:14:29,591 [INFO] 127.0.0.1 - - [28/Oct/2025 16:14:29] "[33mPUT /upload/8 HTTP/1.1[0m" 404 -
+2025-10-28 16:16:18,849 [INFO] 127.0.0.1 - - [28/Oct/2025 16:16:18] "[33mPUT /api/8/update HTTP/1.1[0m" 404 -
+2025-10-28 16:16:34,434 [INFO] 127.0.0.1 - - [28/Oct/2025 16:16:34] "[33mPUT /api/file/8/update HTTP/1.1[0m" 404 -
+2025-10-28 16:16:35,612 [INFO] 127.0.0.1 - - [28/Oct/2025 16:16:35] "[33mPUT /api/file/8/update HTTP/1.1[0m" 404 -
+2025-10-28 16:17:41,048 [INFO]  * Detected change in 'D:\\flask_file_upload_mvc\\controllers\\file_controller.py', reloading
+2025-10-28 16:17:41,179 [INFO]  * Restarting with stat
+2025-10-28 16:17:42,742 [WARNING]  * Debugger is active!
+2025-10-28 16:17:42,748 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 16:17:55,461 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 16:17:55,462 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 16:17:55,484 [INFO]  * Restarting with stat
+2025-10-28 16:17:56,506 [WARNING]  * Debugger is active!
+2025-10-28 16:17:56,511 [INFO]  * Debugger PIN: 127-520-521
+2025-10-28 16:18:10,439 [INFO] 127.0.0.1 - - [28/Oct/2025 16:18:10] "[33mPUT /api/file/8/update HTTP/1.1[0m" 404 -
+2025-10-28 16:18:27,196 [INFO] 127.0.0.1 - - [28/Oct/2025 16:18:27] "[33mPUT /update/8 HTTP/1.1[0m" 404 -
+2025-10-28 16:18:28,693 [INFO] 127.0.0.1 - - [28/Oct/2025 16:18:28] "[33mPUT /update/8 HTTP/1.1[0m" 404 -
+2025-10-28 16:18:48,395 [INFO] File saved: uploads\5ec3b3cc5d4f490e8d950b1a56a2b588_1a.png
+2025-10-28 16:18:48,412 [INFO] File updated: ID=8
+2025-10-28 16:18:48,416 [INFO] 127.0.0.1 - - [28/Oct/2025 16:18:48] "PUT /file/8 HTTP/1.1" 200 -
+2025-10-28 16:18:59,887 [INFO] File deleted from storage: uploads\5ec3b3cc5d4f490e8d950b1a56a2b588_1a.png
+2025-10-28 16:18:59,896 [INFO] Record deleted: ID=8
+2025-10-28 16:18:59,897 [INFO] 127.0.0.1 - - [28/Oct/2025 16:18:59] "DELETE /file/8 HTTP/1.1" 200 -
+2025-10-28 16:19:01,790 [ERROR] Delete error: File not found
+2025-10-28 16:19:01,791 [INFO] 127.0.0.1 - - [28/Oct/2025 16:19:01] "[31m[1mDELETE /file/8 HTTP/1.1[0m" 400 -
+2025-10-28 16:21:33,579 [INFO] File saved: uploads\fd33b9961ff3440fabeaa5ee02aec779\b258ed3b7f754b819061c10badf59404_1a.png
+2025-10-28 16:21:33,581 [INFO] 127.0.0.1 - - [28/Oct/2025 16:21:33] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-28 16:21:48,082 [INFO] 127.0.0.1 - - [28/Oct/2025 16:21:48] "GET /file/10 HTTP/1.1" 200 -
+2025-10-28 16:22:03,607 [INFO] File saved: uploads\46638c545b964cc3947d3deea69998d3_1a.png
+2025-10-28 16:22:03,614 [INFO] File updated: ID=10
+2025-10-28 16:22:03,616 [INFO] 127.0.0.1 - - [28/Oct/2025 16:22:03] "PUT /file/10 HTTP/1.1" 200 -
+2025-10-28 16:22:09,726 [INFO] File deleted from storage: uploads\46638c545b964cc3947d3deea69998d3_1a.png
+2025-10-28 16:22:09,734 [INFO] Record deleted: ID=10
+2025-10-28 16:22:09,734 [INFO] 127.0.0.1 - - [28/Oct/2025 16:22:09] "DELETE /file/10 HTTP/1.1" 200 -
+2025-10-28 16:22:13,618 [ERROR] Delete error: File not found
+2025-10-28 16:22:13,621 [INFO] 127.0.0.1 - - [28/Oct/2025 16:22:13] "[31m[1mDELETE /file/10 HTTP/1.1[0m" 400 -
