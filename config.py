@@ -7,3 +7,4 @@ class Config:
     UPLOAD_FOLDER = os.getenv('UPLOAD_FOLDER', 'uploads')
     LOG_FOLDER = 'logs'
     DEBUG = True
+    SECRET_KEY = os.environ.get('SECRET_KEY')
